@@ -1,3 +1,4 @@
+/*global styles for whole app, imported only once in _app.js file*/
 html,
 body {
   padding: 0;
