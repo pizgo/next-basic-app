@@ -19,7 +19,9 @@ export default function Home ({allPostsData}) {
   return (
       <Layout>
         <Head>
-          <title>{siteTitle}</title>
+            <title>{siteTitle}</title>
+            <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+            <meta name="google" content="notranslate" key="notranslate" />
         </Head>
         <section className={utilStyles.headingMd}>
           <p>This is Tadeusz first next js page</p>
